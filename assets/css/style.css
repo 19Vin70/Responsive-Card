@@ -87,7 +87,7 @@ body {
 .main-content .row-container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
 }
 
 .main-content .row-container .main-row {
@@ -95,12 +95,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px
 }
 
 .main-content .row-container .main-row .icons {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.main-content .row-container .main-row:nth-child(1) {
+    background: #f9e5e5;
+}
+
+.main-content .row-container .main-row:nth-child(2) {
+    background: #f8edd9;
+}
+
+.main-content .row-container .main-row:nth-child(3) {
+    background: #dcf7dc;
+}
+
+.main-content .row-container .main-row:nth-child(4) {
+    background: #cacaf7;
 }
 
 .main-content .row-container .main-row:nth-child(1) .icons p {
@@ -120,7 +138,7 @@ body {
 }
 
 .main-content .row-container .main-row p span {
-    color: #a8a7a7;
+    color: #777;
 } 
 
 .main-content button {
@@ -151,7 +169,7 @@ body {
     }
 
     .side-content {
-        height: 320px;
+        height: 280px;
         border-radius: 0 0 30px 30px;
     }
 
@@ -178,6 +196,12 @@ body {
         flex-direction: column;
         justify-content: space-between;
         margin-top: -50px;
+    }
+
+    .main-content .row-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
     }
 
     .main-content .row-container {
